@@ -37,7 +37,7 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         env:
 {{- if .Values.secretName }}
-          - name: FUNGUS_AUTH_SECRET
+          - name: FUNGI_AUTH_SECRET
             valueFrom:
               secretKeyRef:
                 name: "{{ .Values.secretName }}"

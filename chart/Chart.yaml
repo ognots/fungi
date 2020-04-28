@@ -1,6 +1,6 @@
 apiVersion: v2
-name: fungus
-description: A Helm chart for Fungus job runner
+name: fungi
+description: A Helm chart for Fungi job runner
 
 type: application
 
